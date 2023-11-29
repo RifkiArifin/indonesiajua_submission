@@ -18,7 +18,7 @@ import 'package:indonesia_jua/pages/detail_provinsi/kalimantan_selatan.dart';
 import 'package:indonesia_jua/pages/detail_provinsi/kalimantan_tengah.dart';
 import 'package:indonesia_jua/pages/detail_provinsi/kalimantan_timur.dart';
 import 'package:indonesia_jua/pages/detail_provinsi/kalimantan_utara.dart';
-import 'package:indonesia_jua/pages/detail_provinsi/kepulauan_bangka_belitung.dart';
+import 'package:indonesia_jua/pages/detail_provinsi/bangka_belitung.dart';
 import 'package:indonesia_jua/pages/detail_provinsi/kepulauan_riau.dart';
 import 'package:indonesia_jua/pages/detail_provinsi/lampung.dart';
 import 'package:indonesia_jua/pages/detail_provinsi/maluku.dart';
@@ -61,7 +61,7 @@ class _MobileBodyState extends State<MobileBody> {
     ProvinsiItem(name: 'Gorontalo', imagePath: 'assets/gorontalo.png', destinationPage: const Gorontalo()),
     ProvinsiItem(name: 'Jambi', imagePath: 'assets/jambi.png', destinationPage: const Jambi()),
     ProvinsiItem(name: 'Jawa Barat', imagePath: 'assets/jawa_barat.png', destinationPage: const JawaBarat()),
-    ProvinsiItem(name: 'Jawa Tengah', imagePath: 'assets/Jawa_tengah.png', destinationPage: const JawaTengah()),
+    ProvinsiItem(name: 'Jawa Tengah', imagePath: 'assets/jawa_tengah.png', destinationPage: const JawaTengah()),
     
     ProvinsiItem(name: 'Jawa Timur', imagePath: 'assets/jawa_timur.png', destinationPage: const JawaTimur()),
     ProvinsiItem(name: 'Kalimantan Barat', imagePath: 'assets/kalimantan_barat.png', destinationPage: const KalimantanBarat()),
@@ -70,7 +70,7 @@ class _MobileBodyState extends State<MobileBody> {
     ProvinsiItem(name: 'Kalimantan Timur', imagePath: 'assets/kalimantan_timur.png', destinationPage: const KalimantanTimur()),
     
     ProvinsiItem(name: 'Kalimantan Utara', imagePath: 'assets/kalimantan_utara.png', destinationPage: const KalimantanUtara()),
-    ProvinsiItem(name: 'Kep Bangka Belitung', imagePath: 'assets/kepulauan_bangka_belitung.png', destinationPage: const KepulauanBnagkaBelitung()),
+    ProvinsiItem(name: 'Bangka Belitung', imagePath: 'assets/bangka_belitung.png', destinationPage: const BangkaBelitung()),
     ProvinsiItem(name: 'Kepulauan Riau', imagePath: 'assets/kepulauan_riau.png', destinationPage: const KepulauanRiau()),
     ProvinsiItem(name: 'Lampung', imagePath: 'assets/lampung.png', destinationPage: const Lampung()),
     ProvinsiItem(name: 'Maluku', imagePath: 'assets/maluku.png', destinationPage: const Maluku()),

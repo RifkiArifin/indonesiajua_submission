@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class KepulauanBnagkaBelitung extends StatelessWidget {
-  const KepulauanBnagkaBelitung({super.key});
+class BangkaBelitung extends StatelessWidget {
+  const BangkaBelitung({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Data Provinsi Kepulauan Bangka Belitung'),
+        title: const Text('Data Provinsi Bangka Belitung'),
       ),
       body: Center(
         child: ListView(
@@ -18,7 +18,7 @@ class KepulauanBnagkaBelitung extends StatelessWidget {
               width: 150,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/kepulauan_bangka_belitung.png'),
+                    image: AssetImage('assets/bangka_belitung.png'),
                     fit: BoxFit.contain),
               ),
             ),
@@ -26,7 +26,7 @@ class KepulauanBnagkaBelitung extends StatelessWidget {
               children: [
                 SizedBox(height: 10),
                 Text(
-                  'Kepulauan Bangka Belitung',
+                  'Bangka Belitung',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 20),
